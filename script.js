@@ -1,8 +1,3 @@
-/* =========================================================
-   JELAI PORTFOLIO
-   JavaScript
-========================================================= */
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const menuToggle = document.getElementById("menuToggle");
@@ -10,9 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll("#navMenu a");
 
 
-    /* =====================================================
-       MOBILE NAVIGATION
-    ===================================================== */
+    
 
     if (menuToggle && navMenu) {
 
@@ -52,9 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* =====================================================
-       CURRENT YEAR
-    ===================================================== */
+    
 
     const year = document.querySelector(".footer-content p");
 
@@ -66,9 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* =====================================================
-       IMAGE ERROR HANDLING
-    ===================================================== */
+    
 
     const images = document.querySelectorAll("img");
 
